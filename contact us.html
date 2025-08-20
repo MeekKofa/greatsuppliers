@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GlobalTradeHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container top-bar-content">
+                <div class="top-links">
+                    <a href="support.html"><i class="fas fa-headset"></i> Customer Support</a>
+                    <a href="support.html"><i class="fas fa-question-circle"></i> Help Center</a>
+                </div>
+                <div class="top-links">
+                    <!--a href="join.html">Become a Supplier</a-->
+                    <a href="#"><i class="fas fa-globe"></i> English</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <img src="images/logo.jpg" width="50" height="60" alt="GREATSUPPLIERS Logo">
+                    <!--i class="fas fa-globe-americas"></i-->
+                    <h1>GREATSUPPLIERS</h1>
+                </div>
+                
+                <div class="search-container">
+                    <select>
+                        <option>All Categories</option>
+                        <option>Electronics</option>
+                        <option>Apparel</option>
+                        <option>Machinery</option>
+                        <option>Home & Garden</option>
+                        <option>Beauty & Personal Care</option>
+                    </select>
+                    <input type="text" placeholder="What are you looking for?">
+                    <button><i class="fas fa-search"></i> Search</button>
+                </div>
+                
+                <div class="user-actions">
+                    <a href="signin.html"><i class="fas fa-user"></i> Sign In</a>
+                    <a href="join.html" class="btn">Join Free</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav>
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="contact us.html">Contact Us</a></li>
+                    <!--li><a href="buyer-central.html">Buyer Central</a></li-->
+                    <!--li><a href="sourcing.html">Sourcing Solutions</a></li-->
+                    <!--li><a href="support.html">Help & Support</a></li-->
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Page Content -->
+    <section class="page-content">
+        <div class="container">
+            <div class="content-section">
+                <h2>Get in Touch</h2>
+                <p>Have questions about our services or need assistance? Our team is here to help you with all your trade needs.</p>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Reach out to us through any of the following channels:</p>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email Support</h3>
+                                <p>greatsuppliers@gmail.com</p>
+                                <p>Typically responds within 2 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone Support</h3>
+                                <p>+231880902942</p>
+                                <p>+231771192460</p>
+                                <p>Mon-Fri: 8:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <!--div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Live Chat</h3>
+                                <p>Available on every page</p>
+                                <p>24/7 support for urgent inquiries</p>
+                            </div>
+                        </div-->
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Office Location</h3>
+                                <p>Shoe Factory Junction, Somalia Drive</p>
+                                <p>Montserrado County, Monrovia, Liberia</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" class="form-control" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="billing">Billing Question</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" class="form-control" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!--div class="content-section">
+                <h2>Regional Offices</h2>
+                
+                <div class="offices-grid">
+                    <div class="office-card">
+                        <div class="office-header">
+                            <i class="fas fa-building"></i>
+                            <h3>North America</h3>
+                        </div>
+                        <div class="office-details">
+                            <p><strong>Address:</strong> 123 Trade Center Blvd, New York, NY 10001, USA</p>
+                            <p><strong>Phone:</strong> +1 (800) 123-4567</p>
+                            <p><strong>Email:</strong> na@globaltradehub.com</p>
+                            <p><strong>Hours:</strong> Mon-Fri, 8:00 AM - 6:00 PM EST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="office-card">
+                        <div class="office-header">
+                            <i class="fas fa-building"></i>
+                            <h3>Europe</h3>
+                        </div>
+                        <div class="office-details">
+                            <p><strong>Address:</strong> 45 Commerce Street, London, UK, EC1A 1BE</p>
+                            <p><strong>Phone:</strong> +44 20 7946 0958</p>
+                            <p><strong>Email:</strong> eu@globaltradehub.com</p>
+                            <p><strong>Hours:</strong> Mon-Fri, 9:00 AM - 5:00 PM GMT</p>
+                        </div>
+                    </div>
+                    
+                    <div class="office-card">
+                        <div class="office-header">
+                            <i class="fas fa-building"></i>
+                            <h3>Asia Pacific</h3>
+                        </div>
+                        <div class="office-details">
+                            <p><strong>Address:</strong> 78 Business Park Rd, Singapore 118255</p>
+                            <p><strong>Phone:</strong> +65 6123 4567</p>
+                            <p><strong>Email:</strong> apac@globaltradehub.com</p>
+                            <p><strong>Hours:</strong> Mon-Fri, 9:00 AM - 6:00 PM SGT</p>
+                        </div>
+                    </div>
+                </div>
+            </div-->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About GREATSUPPLIERS</h3>
+                    <p>Greatsuppliers, is a facilitator of international trade
+ between Liberia and China. Our mission
+ is to bridge the gap between Liberian
+ importers and Chinese exporters, as well
+ as Chinese importers seeking quality
+ products from Liberia.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>For Buyers</h3>
+                    <ul>
+                        <li><a href="buyer-central.html">How to Source Products</a></li>
+                        <!--li><a href="suppliers.html">Find Suppliers</a></li-->
+                        <li><a href="sourcing.html">Request for Quotation</a></li>
+                        <li><a href="services.html">Trade Assurance</a></li>
+                        <li><a href="buyer-central.html">Buyer Central</a></li>
+                    </ul>
+                </div>
+                
+                <!--div class="footer-col">
+                    <h3>For Suppliers</h3>
+                    <ul>
+                        <li><a href="join.html">Membership Plans</a></li>
+                        <li><a href="join.html">Supplier Verification</a></li>
+                        <li><a href="products.html">Product Listing</a></li>
+                        <li><a href="sourcing.html">Marketing Solutions</a></li>
+                        <li><a href="support.html">Supplier Training</a></li>
+                    </ul>
+                </div-->
+                
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="support.html">Help Center</a></li>
+                        <li><a href="support.html">Learning Center</a></li>
+                        <li><a href="#">Industry Insights</a></li>
+                        <li><a href="#">Trade Shows</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 GREATSUPPLIERS Trade Platform. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! Our team will contact you shortly.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
